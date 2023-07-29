@@ -15,6 +15,9 @@
 .header-right {
     margin-right: 40px;
 }
+.link {
+    margin-right: 40px;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -25,6 +28,29 @@
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    color: white;
+}
+.subhead-left {
+    display: flex;
+    flex-direction: column;
+    border: solid red;
+    width:auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: 40px;
+}
+.subhead-right {
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin-right: 40px;
+}
+.textbig {
+    font-size: 48px;
+    font-weight: bold;
+}
+.textsmall {
+    font-size: 24px;
 }
 .linkpage {
     flex: 1;
