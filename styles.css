@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-left,
 .header-right,
 .link {
@@ -76,15 +80,14 @@
 }
 
 .pic {
-    height: 150px;
-    width: auto;
-    margin: 50px;
-    border: solid violet;
+    height: auto;
+    width: 150px;
+    margin: 0px 50px;
 }
 
 .image {
-    max-height: 150px;
-    width: auto;
+    height: auto;
+    width: 150px;
 }
 
 .maintext {
@@ -93,11 +96,58 @@
 }
 
 .textfield {
-    height: 150px;
-    width: auto;
-    margin: 50px;
+    height: auto;
+    width: 150px;
+    margin: 10px 50px;
 }
 
+
+.outerquote {
+    text-align: center;
+    width:auto;
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+    padding: 100px;
+}
+
+.quote {
+    display: inline-block;
+    text-align: left;
+}
+
+.outerfoot {
+    background-color: white;
+    padding: 100px;
+}
+
+.innerfoot {
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.lefttext {
+    padding: 30px;
+}
+
+.rightbutton {
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 35px;
+    width: auto;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
 .linkpage {
     flex: 1;
     -ms-flex-item-align: center;
